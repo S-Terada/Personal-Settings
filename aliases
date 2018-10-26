@@ -1,7 +1,8 @@
 #update zshrc
 alias zu='source ~/.dotfiles/zsh/.zshrc'
+#alias zu='source ~/dotfiles/zsh/.zshrc'
 
-#ls
+#ls for macOS
 alias ls='ls -GF'
 alias la='ls -aGF'
 alias ll='ls -alGF'
