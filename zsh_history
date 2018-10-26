@@ -1,0 +1,718 @@
+ls
+ls -a
+mv .zshrc ~/.dotfiles/zsh
+ls -a
+ls .dotfiles/zsh
+ls
+ls -a .dotfiles/zsh
+pwd
+source ./.dotfiles/zsh/.zshrc
+source ./.dotfiles/zsh/.zshrc
+ls
+cd .dotfiles/zsh
+ls
+ls -a
+touch .zsh_history
+ls -a
+pwd
+touch .aliases
+source ./.dotfiles/zsh/.zshrc
+source ~/.dotfiles/zsh/.zshrc
+ll
+la
+source ~/.dotfiles/zsh/.zshrc
+zu
+cd 
+cd PycharmProjects
+ls
+cd endeza
+l
+ll
+py3 arg-test.py 999
+zu
+cd
+zu
+ll
+cd PycharmProjects
+ls
+zu
+cd endeza
+zu
+find ./ G *.py
+ls
+find ./ G arg-test.py
+cat -n calc-test.py L
+cat -n calc-test.py
+q
+zu
+pwd
+cd .dotfiles
+cd zsh
+ls
+la
+touch .plugins
+nvim .zshrc
+pwd
+mkdir -p ./plugins
+ls
+cd plugins
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.dotfiles/zsh/plugins/zsh-syntax-highlighting
+zu
+ls
+gc git://github.com/Valodim/zsh-prompt-powerline
+zu
+bi zsh-history-substring-search
+echo 'source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh' >> ~/.dotfiles/zsh/.zshrc
+zu
+ls
+cd Programming
+ls
+mkdir mips
+ls
+cd mips
+ls
+nvim subr.c
+gcc --version
+gcc -S subr.c
+ls
+nvim subr.s
+ls
+tar xvfj mips-tools.tar.bz2 -C /usr/local
+export PATH=/usr/local/mips-tools/bin:$PATH
+clear
+ls
+cd Programming/mips
+ls
+cat -n subr.s
+ls
+cd PycharmProjects
+ls
+zu
+ls
+la
+ls
+sl
+ls
+exit
+ls
+la
+cd .hyper_plugins
+ls
+cd local
+;s
+ls
+npm -i hyperline
+ls
+cd
+la
+cd PycharmProjects
+ls
+cd endeza
+ls
+cd outputData
+ls
+cd ..
+ls
+py3 MMD.py
+ls
+cd outputData
+ls
+cat -n master.csv
+clear
+ls
+cd
+bi coreutils
+ls -GF
+ls -aGF
+ls
+zu
+ls
+zu
+ls
+la
+zu
+ls
+echo $LS_COLORS
+zu
+ls
+la
+ls
+la
+ls
+cd PycharmProjects
+ls
+cd endeza
+ls
+cd outputData
+ls
+vim master.csv
+cd 
+ls
+la
+cd .dotfiles
+ls
+cd nvim
+ls
+la
+ll
+ls
+cd Programming
+ls
+cd Pycha
+cd PycharmProjects
+ls
+cd endeza
+ls
+vim arg-test.py
+vim cFunc.py
+vim lFunc.py
+ls
+pwd
+cd
+ll
+cd PycharmProjects
+ls
+cd endeza
+ls
+python3 pict.py
+pip3 install Pillow
+pip3 --upgrade pip
+pip3 install --upgrade pip
+pip install --upgrade pip
+pip3 install Pillow
+py3 pict.py
+cd PycharmProjects
+ls
+cd endeza
+ls
+mkdir pict
+ls
+mv pict_base.py ./pict
+mv pict2.py ./pict
+ls
+la
+ll
+cd pict
+ll
+ls
+cd PycharmProjects
+cd endeza
+ls
+cd PycharmProjects
+ls
+cd endeza
+ls
+cd pict
+ls
+./pict.sh
+sudo ./pict.sh
+sudo ./pict
+sudo ./pict.sh
+sudo pict.sh
+sh pict.sh
+cd PycharmProjects/endeza
+ls
+cd pict
+ls
+sh pict
+sh pict.sh
+ll
+rm *.png
+ll
+ls
+la
+cd Music
+ls
+cd Nogizaka46
+ll
+ll | grep *.mp3
+ll || grep *.mp3
+ll | grep *.m4a
+ls
+cd Music
+cd Keyakizaka46
+ls
+ll
+./Overture.m4a
+ll
+bup
+brew update
+tmux %
+%
+tmux%
+exit
+ll
+la
+mkdir nittc
+ls
+cd nittc
+ls
+vi client.c
+ll
+ls
+cd sample
+ls
+vim client.c
+tmux
+cd
+cd .dotfiles
+ls
+cd
+ll
+cd .dotfiles
+ls
+ll
+cd .config
+ll
+cd ..
+cd .local
+ls
+cd bin
+ls
+cd ..
+cd share
+ls
+cd ..
+ls
+mkdir tmux
+ls
+cd tmux
+touch .tmux.conf
+ll
+ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+cd
+ll
+cd .dotfiles
+ls
+cd tmux
+ls
+ll
+vscode
+tmux
+exit
+cd nittc
+cd sample
+tmux
+1;2c
+tmux
+tmux test
+tmux &
+1
+clear
+cd nittc
+cd 
+ls
+cd nittc
+ls
+cd 
+cd nittc
+cd sample
+ls
+gcc -o client client.c
+bup
+gcc -o client client.c
+ls
+cd nittc
+ls
+cd sample
+ls
+cp client.c testclient.c
+ls
+make
+ll
+ls
+./mserver
+./mserver 50000
+cd ..
+cd test
+ls
+./client
+clear
+./client
+./client No.0
+./client host
+./client com
+./client host
+./client
+./client server
+./client 63000
+cd ..
+cd sample
+./testclient
+./testclient 0.0.0.0 50000
+clear
+tmux
+./testclient 0.0.0.0 50000
+clear
+./testclient 0.0.0.0 50000
+ll
+cd nittc
+cd sample
+./client 0.0.0.0 50000
+vim testclient.c
+./client 0.0.0.0 50000
+gcc -o testclient testclient.c
+make
+make testclient.c
+ll
+gcc -c testclient testclient.c
+gcc -c testclient.c
+ll
+gcc testclient.o functions.o
+ll
+./testclient
+./a.out 0.0.0.0 50000
+gcc testclient.c functions.c
+gcc -o testclient testclient.c functions.c
+./testclient
+cd ..
+mkdir test
+cd test
+touch server.c
+touch client.c
+ll
+gcc -o client client.c
+gcc -o server server.c
+ll
+./server
+./server host
+./server
+gcc -o server server.c
+./server
+gcc -o server server.c
+./server
+gcc -o server server.c
+./server
+cd ..
+cd sample
+gcc -o testserver testserver.c
+ls
+gcc -o testserver functions.c testserver.c
+ll
+gcc -o testserver functions.c testserver.c
+./testserver
+gcc -o testserver functions.c testserver.c
+./testserver
+./testserver 50000
+gcc -o testserver functions.c testserver.c
+./testserver 50000
+gcc -o testserver functions.c testserver.c
+./testserver 50000
+gcc -o testserver functions.c testserver.c
+./testserver 50000
+gcc -o testserver functions.c testserver.c
+./testserver 50000
+gcc -o testserver functions.c testserver.c
+./testserver 50000
+gcc -o testserver functions.c testserver.c
+gcc -o testclient functions.c testclient.c
+cd nittc/sample
+clear
+./testclient 0.0.0.0 50000
+clear
+./testclient 0.0.0.0 50000
+cd nittc/sample
+./testclient 0.0.0.0 50000
+cd ..
+cd test
+./client 63000
+./client 50000
+./client
+./client 0.0.0.0
+./client 0.0.0.0 50000
+./client 0.0.0.0
+./client 127.0.0.0
+cd nittc/sample
+./testclient 0.0.0.0 50000
+gcc testclient functions.c testclient.c
+gcc -o testclient functions.c testclient.c
+./testclient 0.0.0.0 50000
+cd ..
+cd test
+cd nittc/sample
+ls
+gcc -o testserver functions.c testserver.c
+./testserver
+./testserver 50000
+cd ..
+ll
+cd test
+ls
+gcc -o server2 server2.c
+./server
+gcc -o server2 server2.c
+gcc -o server server.c
+./server
+cd nittc
+ls
+cd sample
+ls
+cd nittc/test
+./testclient 0.0.0.0 50000
+./testclient 0.0.0.0 50000 hoge
+./testclient 0.0.0.0 50000
+./testclient 0.0.0.0 50000 hoge
+./testclient 0.0.0.0 50000
+clear
+./testclient 0.0.0.0 50000
+cd nittc
+ls
+rm -rf test
+mkdir test
+cd sample
+ls
+cp testclient.c ~/nittc/test
+cp testserver.c ~/nittc/test
+cp function.h ~/nittc/test
+cp functions.h ~/nittc/test
+cp Makefile ~/nittc/test
+cd ..
+cd test
+ls
+vim Makefile
+cd ..
+cd sample
+cp functions.c ~/nittc/test
+ll
+cd .
+cd ..
+cd test
+ls
+make
+cd ..
+cd sample
+cp testclient.c ~/nittc/test
+cd ..
+cd test
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+cd nittc/test
+./testclient 0.0.0.0 50000
+./testclient 0.0.0.0 50000 hoge
+cd nittc/test
+ls
+make
+./testserver 50000
+cd nittc/test
+ls
+./testclient 0.0.0.0 50000 hoge
+man fgets
+./testclient 0.0.0.0 50000 hoge
+cd nittc/sample
+cd ..
+cd test
+make
+./testserver
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+ifconfig
+ping 192.168.1.254
+ping -3c 192.168.1.253
+ping -c 192.168.1.253
+ping -c 192.168.1.253 3
+ping -c 3 192.168.1.253 3
+ping 192.168.1.253 3
+ping 192.168.1.253
+ping 192.168.1.66
+ping 169.254.215.201
+ll
+cd ..
+cd ~
+ls
+ll
+sudo shutdown -h now
+cd nittc/test
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+cd nittc/test
+./testclient 0.0.0.0 50000 hogehoge
+./testclient 0.0.0.0 50000 hogehogehoge
+./testclient 0.0.0.0 50000 hogehoge
+make
+./testclient 0.0.0.0 50000 hogehoge
+s
+./testclient 0.0.0.0 50000 hogehoge
+make
+./testclient 0.0.0.0 50000 hogehoge
+cd nittc/test
+./testclient 0.0.0.0 50000 fuga
+cd nittc/test
+./testclient 0.0.0.0 50000 fuga
+ll
+vi functions.c
+vi functions.h
+./testclient 0.0.0.0 50000 fuga
+clear
+./testclient 0.0.0.0 50000 fuga
+cd ..
+cd te
+cd test
+cd nittc/test
+./testclient 0.0.0.0 50000 des
+./testclient 0.0.0.0 50000 de
+./testclient 0.0.0.0 50000 wo
+./testclient 0.0.0.0 50000 des
+clear
+./testclient 0.0.0.0 50000 des
+cd nittc/test
+./testclient 0.0.0.0 50000
+./testclient 0.0.0.0 50000 hoge
+clear
+./testclient 0.0.0.0 50000 hoge
+cd nittc/test
+make
+clear
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+clear
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+cd nittc/test
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+cd nittc
+cd test
+./testclient 0.0.0.0 50000 fug
+cd nittc/test
+./testclient 0.0.0.0 50000 hoge
+make
+./testclient 0.0.0.0 50000 hoge
+make
+./testclient 0.0.0.0 50000 hoge
+cd nittc/test
+./testclient 0.0.0.0 50000 hoge
+./testclient 0.0.0.0 50001 hoge
+cd nittc/test
+./testclient 0.0.0.0 50000 hoge
+s
+./testclient 0.0.0.0 50000 hoge
+./testclient 0.0.0.0 50001 fuge
+cd nittc/test
+./testclient 0.0.0.0 50000 hoge
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+make
+./testserver 50000
+./testserver 50001
+_lsusb
+bup
+ll
+cd .dotfiles
+ls
+cd zsh
+ls
+ll
+cat -n .zshrc
+cd
+ls
+mkdir git
+ls
+cd git
+echo "# Personal-Settings" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/S-Terada/Personal-Settings.git
+git push -u origin master
+cd
+cd .dotfiles
+ls
+cd zsh
+ls
+ll
+cat -n .zsh_hiq
+cat -n .zsh_history
+clear
+cat -n .aliases
+clear
+ls
+cd plugins
+ls
+cd zsh-syntax-highlighting
+ll
+bup
